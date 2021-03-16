@@ -1,0 +1,32 @@
+@import 'bootstrap\dist\css\bootstrap.min.css';
+@import 'font-awesome\css\font-awesome.min.css';
+
+@font-face{
+    font-family: cairo;
+    
+    src:url(assets\fonts\Cairo-Regular.ttf) format('truetype'),
+        url(assets\fonts\Cairo-SemiBold.ttf) format('truetype'),
+        url(assets\fonts\Cairo-Bold.ttf) format('truetype');
+
+}
+$mainColor:#47C100;
+
+body{
+    direction:rtl
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-button{
+      background-color:rgb(22, 94, 22)
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fff;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $mainColor;
+  }

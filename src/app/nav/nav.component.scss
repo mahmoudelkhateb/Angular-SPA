@@ -1,0 +1,80 @@
+@import"../../../src/styles.scss";
+.upper-nav {
+  direction: ltr;
+ min-height: 60px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    color: $mainColor;
+    font-size: 16px;
+    font-weight: normal;
+    padding:14px ;
+    .contact {
+      span {
+        margin-right: 20px;
+        .ng-fa-icon {
+          margin-right: 16px;
+        }
+      }
+    }
+    .social {
+      a {
+        width: 32px;
+        height: 32px;
+        border: 1px solid #47c100;
+        border-radius: 50%;
+        font-size: 16px;
+        color: #47c100;
+        margin-left: 16px;
+        display: inline-block;
+        line-height: 32px;
+        text-align: center;
+      }
+    }
+  }
+}
+ /* end upper Nav */
+
+  // start Maim Nav
+  .navbar{
+    background-color: $mainColor;
+    min-height: 94px;
+    padding: 0;
+    .navbar-brand{
+      margin:0
+    }
+    ul{
+      padding:0 49px 0 0 ;
+      font-family: cairo;
+      li{
+        a{
+          font-size: 18px;
+          font-weight:400;
+          color:#fff;
+          margin-left:31px;
+          padding:0 !important
+        }
+      }
+    }
+    .options{
+      display: flex;
+      color:#fff;
+      .lang{
+        margin: 0 0 0 52px;
+        a{
+          margin:0 0 0 27px;
+          color:#fff;
+          text-decoration: none;
+          .ng-fa-icon{
+            margin-right:10px
+          }
+        }
+      }
+      .user{
+        .ng-fa-icon{
+          margin:0 0 0 9px
+        }
+
+      }
+    }
+  }

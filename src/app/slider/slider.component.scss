@@ -1,0 +1,41 @@
+@import"../../../src/styles.scss";
+.carousel {
+  height: calc(100vh - 154px);
+  background-color: #f4f4f4;
+  .carousel-indicators{
+    li{
+      background-color:$mainColor;
+      border-radius: 50%;
+      width:10px;
+      height:10px;
+    }
+  }
+  .container {
+    position: relative;
+
+  }
+
+  .carousel-item{
+    img{
+      margin:0 0 0 -177px
+    }
+    .carousel-caption {
+      text-align: right;
+      font-family: cairo;
+      color: #000;
+      right:0;
+      margin-bottom: 10%;
+      h2 {
+        font-weight: 700;
+        margin-bottom: 32px;
+        font-size: 34px;
+      }
+      p {
+        width: 609px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 40px;
+      }
+    }
+  }
+}
